@@ -1,3 +1,1 @@
-01_data_preprocessing. ipynb: This notebook contains all the steps I took to prepare the data for analysis. This includes cleaning the data, handling missing values, normalizing or standardizing data, feature extraction or selection, and any other preprocessing tasks.
-02_model_training. ipynb: In this notebook, I detail the process of training the machine learning models. This involves splitting the data into training and test sets, selecting model algorithms, tuning parameters, training the models, and evaluating their performance based on the project's objectives.
-03_results_visualization. ipynb: This notebook is dedicated to visualizing the results of the analysis and the performance of models. It include plots and charts that show the accuracy of models, feature importances, or any insights derived from the data that answer research questions or meet the project's goals.
+
