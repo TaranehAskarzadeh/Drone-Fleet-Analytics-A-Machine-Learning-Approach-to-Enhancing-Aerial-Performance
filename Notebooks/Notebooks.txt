@@ -1,0 +1,44 @@
+01_data_preprocessing.ipynb
+Objective: Prepare the drone dataset for analysis. This notebook covers the initial data cleaning, handling of missing values, and feature engineering necessary to make the data suitable for modeling.
+Contents:
+1. Introduction
+Overview of the dataset and its relevance to the research questions.
+2. Data Loading
+Code to load the drone_dataset.csv into a pandas DataFrame.
+3. Data Cleaning
+Strategies for dealing with missing data, duplicates, and irrelevant features.
+4. Feature Engineering
+Techniques applied to enhance the dataset, such as creating new features or transforming existing ones for better analysis.
+5. Data Normalization/Standardization
+Explanation and application of scaling techniques to standardize the feature set.
+6. Summary
+Recap of preprocessing steps and preparation of the dataset for modeling.
+02_model_training.ipynb
+Objective: Evaluate various machine learning models to predict the payload capacity of drones based on their features. This notebook focuses on training, tuning, and comparing models to select the best performer.
+Contents:
+1. Introduction
+Recap of the research question and the models under consideration.
+2. Data Preparation
+Splitting the preprocessed data into training and testing sets.
+3. Model Training and Selection
+Detailed steps for training SVM, RF, Boosting algorithms, and KNN models.
+Hyperparameter tuning and model configuration.
+4. Model Evaluation
+Comparison of model performances using metrics like RMSE, R-squared, and MAE.
+5. Model Selection
+Rationale for selecting the best model based on performance metrics.
+6. Summary
+Conclusions drawn from the model training and selection process.
+03_results_visualization.ipynb
+Objective: Visualize and interpret the results from the best-performing model, emphasizing the relationship between drone payload capacity and performance metrics such as range, cruise speed, and flight time.
+Contents:
+1. Introduction
+Summary of the selected model and its significance in predicting drone payload.
+2. Model Performance Visualization
+Visual representations of the model's predictive accuracy and error metrics.
+3. Feature Importance
+Analysis and visualization of the most influential features in the selected model.
+4. Insights from Model Predictions
+Exploration of how payload capacity impacts drone performance metrics, illustrated through various visualizations.
+5. Summary
+Key takeaways from the analysis and potential implications for drone design and usage.
